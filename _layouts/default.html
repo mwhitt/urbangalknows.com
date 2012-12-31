@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        {% if page.title %}
+          <title>Urban Gal Knows: {{ page.title }}</title>
+        {% else %}
+          <title>Urban Gal Knows: Expert, personal tours of San Francisco, Napa, Sonoma and Bay Area.</title>
+        {% endif %}
+
+        {% if page.meta_description %}
+          <meta name="description" content="{{ page.meta_description }}" />
+        {% endif %}
+
+        <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
+    </head>
+    <body>
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container" id="short-container">
+            <a class="brand" href="#">Urban Gal Knows</a>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Sample Tours</a></li>
+              <li><a href="#">Tour Packages</a></li>
+              <li><a href="#">Photo Gallery</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main-content">
+          {{ content }}  
+        </div>
+      </div>
+    </body>
+</html>
