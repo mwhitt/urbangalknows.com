@@ -18,30 +18,38 @@
         <link href='http://fonts.googleapis.com/css?family=Muli|Rock+Salt' rel='stylesheet' type='text/css'>
     </head>
     <body>
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container" id="short-container">
-            <a class="brand" href="#"><span class="cursive">Urban Gal Knows</span></a>
-            <ul class="nav">
-              <li class="active"><a href="#"><i class="icon-home" style="margin-top:3px"></i></a></li>
-              <li><a href="#">Sample Tours</a></li>
-              <li><a href="#">Packages</a></li>
-              <li><a href="#">Photo Gallery</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
+      <div id="wrap">
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container" id="short-container">
+              <a class="brand" href="#"><span class="cursive">Urban Gal Knows</span></a>
+              <ul class="nav">
+                <li class="active"><a href="#"><i class="icon-home" style="margin-top:3px"></i></a></li>
+                <li><a href="#">Sample Tours</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
           </div>
         </div>
+        <div class="container">
+          <div id="main-content">
+            {% if page.image %}
+              <div class="header-image">
+                <img src="/assets/images/{{ page.image }}" class="img-shadow"/>
+              </div>
+            {% endif %}
+            {{ content }}  
+          </div>
+        </div>  
+          
       </div>
       <div class="container">
-        <div class="main-content">
-          {% if page.image %}
-            <div class="header-image">
-              <img src="/assets/images/{{ page.image }}" class="img-shadow"/>
-            </div>
-          {% endif %}
-          {{ content }}  
-        </div>
+        <footer class="footer">
+          <p>&copy; UrbanGalKnows.com, All Rights Reserved</p>
+        </footer>
       </div>
     </body>
 </html>
