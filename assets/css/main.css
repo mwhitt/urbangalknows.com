@@ -5,6 +5,7 @@
 h1 {
   color: #BD374C;
   font-size:28px;
+  font-family: 'Muli', sans-serif;
 }
 
 .container {
@@ -13,4 +14,18 @@ h1 {
 
 #short-container {
   width: 940px;
+}
+
+.cursive {
+  font-family: 'Rock Salt', cursive;
+  font-size:18px;
+}
+
+.header-image {
+  margin-top:15px;
+}
+
+.img-shadow {
+  -webkit-box-shadow: 3px 3px 3px #888;
+  box-shadow: 3px 3px 3px #888;
 }
