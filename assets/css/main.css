@@ -28,7 +28,7 @@ h3 {
 
 .contact-btn {
   /*text-align: center;*/
-  margin: 35px 0px;
+  margin: 30px 0px;
   color:#443A37;
 }
 
@@ -50,8 +50,8 @@ h3 {
 }
 
 .img-shadow {
-  -webkit-box-shadow: 3px 3px 3px #888;
-  box-shadow: 3px 3px 3px #888;
+  -webkit-box-shadow: 3px 3px 3px #999;
+  box-shadow: 3px 3px 3px #999;
 }
 
 html, body {
