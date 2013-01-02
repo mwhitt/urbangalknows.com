@@ -1,13 +1,48 @@
 ---
 layout: default
-title: Fun tours of San Francisco from a local
-image: san-fran.jpeg
+title: Local and Fun San Francisco Tour Guide
+description: Local and Fun San Francisco Tour Guide
 ---
-<h1>Fun, memorable tours of San Francisco &amp; Bay Area</h1>
 
-<p>
-  Welcome to the UrbanGalknows San Francisco website where personalizing a San Francisco tour you'll never forget is the mission. 
-</p>
-<p>
-The San Francisco tours are made up of small groups to give you undivided attention.  The goal is to make your experience in San Francisco one you'll always remember.  Stories will tintilate you into remembering the San Francisco culture and California history.  UrbanGal is a local that knows and loves her city.
-</p>
+<div id="wrap">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container" id="short-container">
+
+        <a class="brand" href="/">
+          <span class="cursive">Urban Gal Knows</span>
+        </a>
+
+        <ul class="nav">
+          <li class="active"><a href="#home"><i class="icon-home" style="margin-top:3px"></i></a></li>
+          <li><a href="#sample-tours">Sample Tours</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Photo Gallery</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="main-content">
+
+      <div id="home">
+        {% include home.html %}
+      </div>
+
+      <div id="sample-tours">
+        {% include sample_tours.html %}
+      </div>
+
+    </div>
+  </div>  
+</div>
+
+<div class="container">
+  <footer class="footer">
+    <p>&copy; UrbanGalKnows.com, All Rights Reserved</p>
+  </footer>
+</div>

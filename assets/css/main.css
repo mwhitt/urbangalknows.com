@@ -1,11 +1,43 @@
 h1 {
   color: #BD374C;
   font-size:28px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: #BD374C;
+  font-size:24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  color: #BD374C;
+  font-size:20px;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.heading-icon {
+  margin-top:7px;
+}
+
+.contact-btn {
+  /*text-align: center;*/
+  margin: 35px 0px;
+  color:#443A37;
 }
 
 .container {
   width: 940px;
+}
+
+.page-content {
+  margin-top:20px;
 }
 
 #short-container {
@@ -15,10 +47,6 @@ h1 {
 .cursive {
   font-family: 'Rock Salt', cursive;
   font-size:18px;
-}
-
-.header-image {
-  margin-top:15px;
 }
 
 .img-shadow {

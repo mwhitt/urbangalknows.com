@@ -15,41 +15,13 @@
 
         <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Muli|Rock+Salt' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Rock+Salt|Open+Sans:600,700' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-      <div id="wrap">
-        <div class="navbar navbar-fixed-top">
-          <div class="navbar-inner">
-            <div class="container" id="short-container">
-              <a class="brand" href="#"><span class="cursive">Urban Gal Knows</span></a>
-              <ul class="nav">
-                <li class="active"><a href="#"><i class="icon-home" style="margin-top:3px"></i></a></li>
-                <li><a href="#">Sample Tours</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Photo Gallery</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div id="main-content">
-            {% if page.image %}
-              <div class="header-image">
-                <img src="/assets/images/{{ page.image }}" class="img-shadow"/>
-              </div>
-            {% endif %}
-            {{ content }}  
-          </div>
-        </div>  
-          
-      </div>
-      <div class="container">
-        <footer class="footer">
-          <p>&copy; UrbanGalKnows.com, All Rights Reserved</p>
-        </footer>
-      </div>
+    <body data-spy="scroll" data-target=".navbar">
+      
+      {{ content }}
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
