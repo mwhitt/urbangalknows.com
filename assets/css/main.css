@@ -31,9 +31,17 @@ h3 {
   margin-top:7px;
 }
 
+.btn-clear {
+  margin-bottom:30px;
+}
+
 .text-image {
   padding:5px 25px 5px 0px;
   width:250px;
+}
+
+.text-image-about {
+  padding:5px 25px 5px 0px;
 }
 
 .contact-btn {
