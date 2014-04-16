@@ -46,7 +46,7 @@ h3 {
 
 .contact-btn {
   /*text-align: center;*/
-  margin-top:30px;  
+  margin-top:30px;
   margin-bottom: 50px;
   color:#443A37;
 }
@@ -56,14 +56,16 @@ h3 {
 }
 
 .media {
-  margin-bottom:30px;
+  margin-bottom:40px;
+  margin-top: 40px;
 }
 
 .media-heading {
   color:#BD374C;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size:20px
+  font-size:24px;
+  margin-bottom:15px;
 }
 
 .container {
@@ -114,4 +116,13 @@ html, body {
   height: 20px;
   clear:both;
   padding-top:20px;
-} 
+}
+
+.sample-tour-detail-list li {
+  margin:10px 0;
+}
+
+.getty-image-sample-tour {
+  width:300px;
+  height:200px;
+}
